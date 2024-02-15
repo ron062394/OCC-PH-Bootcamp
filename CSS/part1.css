@@ -1,0 +1,54 @@
+/* part1.css */
+/* element selector */
+/* h1{
+    color: red
+} */
+
+/* class selector */
+/* .heading1 {
+    color: orange;
+} */
+
+/* id selector */
+/* #heading2 {
+    color: purple;
+} */
+
+/* attribute selector */
+/* a[title="google.com"],
+a[title="facebook.com"] {
+    background-color: pink;
+} */
+
+/* universal selector */
+/* * {
+    color: black;
+} */
+
+/* grouping selector */
+/* h1, a {
+    background-color: green;
+} */
+
+/* descendant selector */
+/* div p {
+    color: blue;
+} */
+
+/* pseudo classes selector */
+/* div p:first-of-type {
+    color: blue;
+} */
+
+/* p:hover {
+    color: magenta;
+} */
+
+/* pseudo element */
+/* p::first-letter {
+    color: red;
+} */
+
+p::after {
+    content: "I am ian";
+}
