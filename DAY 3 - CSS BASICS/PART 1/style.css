@@ -1,0 +1,68 @@
+/* Comment in CSS */
+/* Universal Selector */
+* {
+    color:brown;
+    background-color: rgb(88, 57, 9);
+}
+
+
+/* Element Selector  */
+p {
+    color: blue;
+}
+
+/* Class Selector */
+.class-example {
+    color: pink;
+}
+
+/* ID Selector */
+#id-example {
+    color: yellow;
+}
+/* Attribute Selector */
+/* targetting an <a> with a href attribute */
+a[href] {
+    color: lavender;
+}
+
+/* target any element that has a href attribute */
+[href] {
+    color: purple;
+}
+
+/* target <a> with a href that is exactly "www.example2.com" */
+a[href="www.example2.com"] {
+    color: orange;
+}
+
+
+/* Grouping Selector */
+h1, h2, h3 {
+    font-size: 25px;
+    background-color: beige;
+}
+
+#heading1 , .heading2 , h3 {
+    background-color: rgb(196, 176, 147);
+} 
+
+#heading1:hover {
+    background-color: lightsalmon;
+    color:darkgreen;
+}
+
+.heading2::first-letter {
+    color: blue;
+}
+
+h3::before {
+    content: "Placed before h3."
+}
+
+h3::after {
+    content: "Placed after h3."
+}
+
+
+
