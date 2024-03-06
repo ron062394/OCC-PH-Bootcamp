@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <h2>HTML Forms</h2>
+
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" placeholder="Enter your name" required />
+        <br />
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Enter your email address" required />
+        <br />
+
+        <label for="phone">Phone Number:</label>
+        <input type="number" name="phone" id="phone" />
+        <br />
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" />
+        <br />
+
+        <label for="message">Message:</label>
+        <textarea name="message" id="message" maxlength="280" rows="4" cols="50"></textarea>
+        <br />
+
+        <label for="OS">Operating System:</label>
+        <select name="OS" id="OS">
+            <option value="windows">Windows</option>
+            <option value="macOS">MacOS</option>
+            <option value="linux">Linux</option>
+        </select>
+        <br />
+
+        <input type="radio" name="options" id="yes" value="yes" />
+        <label for="yes">Yes</label>
+        <input type="radio" name="options" id="no" value="no" />
+        <label for="no">No</label>
+
+        <input type="radio" name="options2" id="maybe" value="maybe" />
+        <label for="maybe">Maybe</label>
+        <br />
+
+        <input type="checkbox" name="color" id="pink" value="pink" />
+        <label for="pink">Pink</label>
+        <input type="checkbox" name="color" id="red" value="red" />
+        <label for="red">Red</label>
+        <input type="checkbox" name="color" id="blue" value="blue" />
+        <label for="blue">Blue</label>
+        <input type="checkbox" name="color" id="black" value="black" />
+        <label for="black">Black</label>
+        <input type="checkbox" name="color" id="yellow" value="yellow" />
+        <label for="yellow">Yellow</label>
+        <br />
+        <br />
+
+        <button type="submit">Submit Form</button>
+    </form>
+</body>
+</html>
