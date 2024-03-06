@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS - Practice </title>
+
+    <link rel="stylesheet" href="./css/style.css"> 
+
+    <style>
+        .internal {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <!-- 
+        ORDER OF PRIORITY:
+            1. Inline CSS
+            2. Internal CSS
+            3. External CSS
+    -->
+    <p > This is a paragraph with external styling. </p>
+
+    <p class="internal" > This is a paragraph with internal styling. </p>
+
+    <p style="color:green;"> This is a paragraph with inline styling. </p>
+
+    <p class="parag1"> This paragraph uses class selector. </p>
+
+    <p class="parag1"> This paragraph uses class selector. </p>
+
+    <p id="id-sample" href="www.example3.com"> This paragraph uses ID Selector. </p>
+
+    <a href="www.example.com"> This is an anchor tag with [href]. </a>
+<br/>
+    <a href="www.example2.com"> This is an anchor tag with specific [href]. </a>
+
+
+    <h1 class="heading1"> Heading 1 -- grouping selector </h1>
+    <h2 id="heading2"> Heading 2 -- grouping selector </h2>
+    <h3> Heading 3 -- grouping selector </h3>
+
+</body>
+</html>
